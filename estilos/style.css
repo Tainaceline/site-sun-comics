@@ -7,11 +7,13 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(177, 177, 177);
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 #principal{
   background-color: #FFFFFF;
    width: 350px;
@@ -27,6 +29,7 @@ label{
 #button{
     width: 300px;
     margin-top: 4%;
+    height: 26px;
     background-color:rgb(48, 48, 136) ;
     color: white;
     
