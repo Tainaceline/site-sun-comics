@@ -15,9 +15,9 @@ body{
 
 
 #principal{
-  background-color: #FFFFFF;
-   width: 350px;
-   height: 280px;
+   background-color: #FFFFFF;
+   width: 380px;
+   height: 323px;
    border-radius: 20px;
 
   
@@ -27,12 +27,11 @@ label{
     font-size: 1.3em;
 }
 #button{
-    width: 300px;
+    width: 320px;
     margin-top: 4%;
-    height: 26px;
-    background-color:rgb(48, 48, 136) ;
+    height: 28px;
+    background-color: rgb(48, 48, 136);
     color: white;
-    
 }
 #dform{
   padding: 20px;
@@ -56,36 +55,40 @@ a{
     margin-top: 7%;
 }
 a:hover{
-    color:  rgb(79, 79, 100);
+    color: rgb(70, 69, 69);
 }
 #criarconta{
     background-color: #FFFFFF;
     margin-top: 37%;
     
 }
-#esqs{
-    margin-top: 2%;
+input{
+    padding: 2px;
+    
 }
+
+
+
 footer{
    margin-top: 20%;
 }
 
-.buttonc{
-     display: inline-block;
-        width: 300px;
-        margin-top: 4%;
-        height: 26px;
-        background-color:rgb(48, 48, 136) ;
-        color: white;
-        text-align: center;
-        line-height: 26px;
-        text-decoration: none;
-        border-radius: 4px;
-       
-      
-    }
-    a:active{
-        transform: translate(2px,2px);
-    }
 
-  
+.buttonc{
+    display: inline-block;
+       width: 320px;
+       margin-top: 4%;
+       height: 26px;
+       background-color:rgb(48, 48, 136) ;
+       color: white;
+       text-align: center;
+       line-height: 26px;
+       text-decoration: none;
+       border-radius: 4px;
+      
+      
+     
+   }
+   a:active{
+       transform: translate(2px,2px);
+   }
