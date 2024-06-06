@@ -149,7 +149,8 @@
     
     #text{
         text-align: center;
-        margin-left: 58px;
+        margin-left: 129px;
+        font-size: 1.8em;
         
       
         color: white;
@@ -165,8 +166,9 @@
         color: white;
         position: relative;
         bottom: 182px;
-        width: 358px;
+        width: 255px;
         left: 152px;
+        font-size: 0.9em;
         
     
     }
@@ -176,7 +178,7 @@
         margin: auto;
         position: relative;
         bottom: 166px;
-        right: 30px;
+        right: -36px;
         height: 26px;
         background-color: rgb(48, 48, 136);
         color: white;
