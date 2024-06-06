@@ -1,4 +1,4 @@
-@media screen and  (min-width:600px )and (max-width:768px) {
+@media screen and (min-width:1202px){
     *{
         margin: 0px;
         padding: 0px;
@@ -18,17 +18,17 @@
     
     header {
         background-color: rgb(48, 48, 136);
-        height: 12%;
+        height: 16%;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+       
+        
         padding: 4px;
         position: relative;
     }
     
     
     #menu {
-        display: none;
+        display: block;
         position: absolute;
        
        
@@ -41,6 +41,9 @@
         
         background-color: rgb(29, 28, 28);
       
+    }
+    menu li{
+        display: inline-block;
     }
     
     #menu a {
@@ -70,14 +73,8 @@
     
     
     #icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgb(29, 27, 27);
-        color: white;
-        height: 40px;
-        width: 30px;
-        
+        display: none;
+     
      
     }
     
@@ -105,12 +102,11 @@
     
     .telain{
         background: url(https://i1.wp.com/lightnovelbrasil.com/wp-content/uploads/2021/07/download.jpg?resize=370,500
-        ) center top / cover no-repeat;
+        ) left top / cover no-repeat;
      
         
-        width: 100%;
-        height: 230px;
-    
+        width: 86%;
+        height: 382px;
         position: relative; 
         
         
@@ -134,7 +130,7 @@
         
         
         
-        filter: blur(4px); 
+        filter: blur(2px); 
         ; 
     }
     
