@@ -113,6 +113,7 @@
     
         position: relative; 
         
+        
        
       
        
@@ -140,6 +141,7 @@
     img {
         width: 120px;
         height: 168px;
+        left: 0px;
        
       
         position: relative; 
@@ -166,7 +168,7 @@
         color: white;
         position: relative;
         bottom: 182px;
-        width: 255px;
+        width: 241px;
         left: 152px;
         font-size: 0.9em;
         
