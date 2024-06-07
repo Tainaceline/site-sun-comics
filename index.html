@@ -6,26 +6,46 @@
     <title>Mobile First</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="estilos/tela.css" media="all">
-    <link rel="stylesheet" href="estilos/pc.css">
+    <link rel="stylesheet" href="estilos/pc.css" media="screen">
     <link rel="stylesheet" href="estilos/tela2.css" media="screen">
     <script defer src="ss.js"></script>
 </head>
 <body>
     <header>
+        <div id="logo">Sun.Comic</div>
         <span id="icons" class="material-symbols-outlined" onclick="clicar()">
             menu
         </span>
         <menu id="menu">
             <ul>
-                <li><a href="form.html" target="_blank"> login</a></li>
-                 <li><a href="#">Carrinho</a></li>
+                <li class="l"><a href="form.html" target="_blank"> login</a></li>
+                 <li class="l">  <a href="#">Carrinho</a></li>
                 <li><a class="manhua" href="#">Manhua</a></li>
                 <li><a class="mangas" href="#">Mangás</a></li>
                 <li><a class="livros" href="#">Livros</a></li>
                 <li><a class="lidos" href="#">Mais lidos</a></li>
+               
             </ul>
+
+
         </menu>
-        <div id="logo">Sun.Comic</div>
+       
+          <div class="pc">
+           
+                <span id="card" class="material-symbols-outlined">
+                    shopping_cart
+                    </span>
+                <div id="car"><a href="#"> Carrinho</a></div>
+                
+                <span id="card2" class="material-symbols-outlined">
+                    person
+                    </span>
+                
+                <div id="log"><a href="#">Login</a></div>
+            </ul>
+        </div>
+
+    
         <form action="" method="post">
             <p>
                 <label for="ipesquisa"></label>
@@ -36,17 +56,18 @@
     </header>
     <main>
        
-            <div class="telain">
-                <div class="solol">
-                    <img src="https://i1.wp.com/lightnovelbrasil.com/wp-content/uploads/2021/07/download.jpg?resize=370,500" alt="">
-                   
-                </div>
-                <h1 id="text">Solo Leveling</h1>
-                <p id="text2"> "Sung Jinwoo (Aleks Le), um caçador fraco, sobrevive a uma batalha mortal e é escolhido pelo misterioso 'Sistema', que lhe concede poderes incríveis, transformando-o no caçador mais forte.</p>
-                <a id="botao1" href="#"> Comprar</a>
-                
+        <div class="telain">
+            <div class="solol">
+                <img src="https://i1.wp.com/lightnovelbrasil.com/wp-content/uploads/2021/07/download.jpg?resize=370,500" alt="">
+               
             </div>
-     
-    </main>
+            <h1 id="text">Solo Leveling</h1>
+            <p id="text2"> "Sung Jinwoo (Aleks Le), um caçador fraco, sobrevive a uma batalha mortal e é escolhido pelo misterioso 'Sistema', que lhe concede poderes incríveis, transformando-o no caçador mais forte.</p>
+            <a id="botao1" href="#"> Comprar</a>
+            
+        </div>
+ 
+</main>
+
 </body>
 </html>

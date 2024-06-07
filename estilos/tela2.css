@@ -34,10 +34,11 @@
        
         top: 70px;
         z-index: 9999;
+        
     
        
        
-        
+        width: 134px;
         
         background-color: rgb(29, 28, 28);
       
@@ -47,12 +48,11 @@
         display: block;
         text-decoration: none;
         color: white;
-        padding: 4px;
+        padding-top: 16px;
         background-color: rgb(29, 28, 28);
-        height: 55px;
-        width: 145%;
+      
         font-size: 1.1em;
-        text-indent: 1px;
+        text-indent: 13px;
         
      
        
@@ -129,13 +129,11 @@
         width: 100%;
         height: 100%;
         background: inherit; 
-        background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+        background: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente */
         
         
         
         
-        filter: blur(4px); 
-        ; 
     }
     
     img {
