@@ -7,7 +7,7 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(114, 85, 85);
+    background-color:  #16151D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body{
 
 
 #principal{
-   background-color: #FFFFFF;
+   background-color: #222222;
    width: 380px;
    height: 323px;
    border-radius: 20px;
@@ -38,7 +38,7 @@ label{
 }
 header{
     padding: 10px;
-    color: rgb(48, 48, 136);
+    color: white;
     text-align: center;
     font-size: 1.2em;
    
@@ -48,14 +48,15 @@ header{
 
 p{
     line-height: 28px;
-    color: rgb(48, 48, 136);
+    color: WHITE;
 }
 a{
     text-decoration: none;
     margin-top: 7%;
+    color: white;
 }
 a:hover{
-    color: rgb(70, 69, 69);
+    color:  rgb(48, 48, 136);
 }
 #criarconta{
     background-color: #FFFFFF;
@@ -91,4 +92,8 @@ footer{
    }
    a:active{
        transform: translate(2px,2px);
+   }
+   input{
+   
+    width: 97%;
    }
