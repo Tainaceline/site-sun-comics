@@ -1,4 +1,4 @@
-@media screen and (min-width: 1202px) {
+@media screen and (min-width: 1202px){
     * {
         margin: 0;
         padding: 0;
@@ -60,20 +60,67 @@
         width: 100%;
     }
     
-    .telain {
+    .slider{
+        width: 65%;
+        height: 100%;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 40px;
+    }figure{
+        position: relative;
+        left: 0;
+        width: 400%;
+        animation: 10s slide infinite;
+       
+       
+      
+    }.slide{
+        position: relative;
+        width: 25%;
         background: url('https://i1.wp.com/lightnovelbrasil.com/wp-content/uploads/2021/07/download.jpg?resize=370,500') center top / cover no-repeat;
-        width: 70%;
+        
+      
+        height: 500px; 
+        background-repeat: no-repeat;
+    
+        float: left;
+      
+       
+    }.slide h1{
+        position: relative;
+        font-size: 3em;
+        color: white;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .slide1{
+        background: url('https://flowermangas.com/wp-content/uploads/a-stepmothers-marchen-1596.jpg') center top / cover no-repeat;
+        width: 25%;
+        float: left;
         height: 500px; 
         position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
-        
-    }
     
-    .telain::before {
+        
+    }.slide2{
+        background: url('https://img.mangaschan.com/uploads/manga-images/s/sousou-no-frieren/Sousou%20no%20Frieren%20mangaschan.webp') right center / cover no-repeat;
+        width: 25%;
+        float: left;
+        height: 500px; 
+        position: relative;
+        
+    }.slide3{
+            background: url("https://m.media-amazon.com/images/I/41xVhz5sL1L._SY445_SX342_.jpg") center top / cover no-repeat;
+            width: 25%;
+            float: left;
+            height: 500px; 
+            position: relative;
+            
+
+    }
+
+
+    .slide::before{
         content: "";
         position: absolute;
         top: 0;
@@ -81,60 +128,199 @@
         width: 100%;
         height: 100%;
         background: inherit; 
-        background: rgba(0, 0, 0, 0.8); 
-        
-        
-        
-        
-      
-        
-       
-    }
+       background: rgba(0, 0, 0, 0.8); 
     
+    
+    
+    
+    }
+    .slide1::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit; 
+       background: rgba(0, 0, 0, 0.8); 
+    
+    
+    
+    
+    }.slide2::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit; 
+       background: rgba(0, 0, 0, 0.8); 
+    
+    
+    
+    
+    }
+    .slide3::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit; 
+       background: rgba(0, 0, 0, 0.8); 
+    
+    
+    
+    
+    }
     img {
-        width:  221px;
-        height: auto;
-        position: relative;
-        z-index: 1;
-        left: -259px;
-        top: 65px;
-    }
-    
-    #text {
-        text-align: center;
-        font-size: 3em;
+    width:  221px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    left:85px;
+    top: 70px;
+}
+
+
+#titulo7{
+    text-align: center;
+        font-size: 2.7em;
         color: white;
         position: relative;
-        bottom: 246px;
+        bottom: 253px;
         z-index: 1;
-    }
+        left: 102px
+}
+#titulo8{
+    text-align: center;
+    font-size: 2.7em;
+    color: white;
+    position: relative;
+    bottom: 293px;
+    z-index: 1;
+    left: 122px
+}
+#titulo9{
+    display: block;
+    margin: auto;
+    color: white;
+    width: 380px;
     
-    #text2 {
-        text-align: center;
-        color: white;
-        width: 380px;
-        
-        font-size: 1.2em;
-        position: relative;
-        z-index: 1;
-        bottom: 206px;
-        left: 66px;
-    }
+    font-size: 1.2em;
+    position: relative;
+    z-index: 1;
+    bottom: 228px;
+    left: 66px;
+}
+#botao2{
+    width: 168px;
+    display: block;
+    margin: auto;
+    height: 35px;
+    background-color: rgb(48, 48, 136);
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    text-decoration: none;
+    border-radius: 13px;
+    position: relative;
+    top: -209px;
+}
+   .slide3 h1{
+     position: relative;
+     left: 109px;
+} 
+
+#text {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    position: relative;
+    bottom:293px;
+    z-index: 1;
+    left: -43px;
+} 
+  
+
+
+#text2 {
+    display: block;
+    margin: auto;
+    color: white;
+    width: 380px;
     
-    #botao1 {
+    font-size: 1.2em;
+    position: relative;
+    z-index: 1;
+    bottom: 260px;
+    left: 66px;
+}
+
+#botao1 {
         width: 168px;
         display: block;
         margin: auto;
-        height: 26px;
+        height: 35px;
         background-color: rgb(48, 48, 136);
         color: white;
         text-align: center;
-        line-height: 26px;
+        line-height: 37px;
         text-decoration: none;
         border-radius: 13px;
         position: relative;
-        z-index: 1;
+        top: -227px;
     }
+    
+}
+    @keyframes slide {
+        0%{
+            left:0;
+        }
+        10%{
+            left:0;
+        }
+        20%{
+            left:-100%;
+        }
+        30%{
+            left:-100%;
+        }
+        40%{
+            left:-200%;
+        }
+        50%{
+            left:-200%;
+        }
+        65%{
+            left:-300%;
+        }
+        66%{
+            left:-200%;
+        }
+        74%{
+            left:-200%;
+        }
+        75%{
+            left:-100%;
+        }
+        85%{
+            left:-100%;
+        }
+        90%{
+            left:0;
+        }
+        1000%{
+            left:0;
+        }
+    }
+        
+    
+    
+    
+  
     
     a:active {
         transform: translate(2px, 2px);
@@ -238,6 +424,7 @@
     margin-top: -59%;
     width: 79%;
     max-height: 12rem;
-    margin-left: 93%;
-}
-}
+    margin-left: -100%;}
+
+
+
