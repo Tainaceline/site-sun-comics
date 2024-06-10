@@ -70,7 +70,7 @@
         position: relative;
         left: 0;
         width: 400%;
-        .animation: 10s slide infinite;
+        animation: 10s slide infinite;
        
        
       
