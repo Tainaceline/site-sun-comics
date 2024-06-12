@@ -66,11 +66,13 @@
         overflow: hidden;
         margin: auto;
         margin-top: 40px;
+       
     }figure{
         position: relative;
         left: 0;
         width: 400%;
-        animation: 14s slide infinite;
+        animation: 17s slide infinite;
+        
        
        
       
@@ -180,7 +182,7 @@
     height: auto;
     position: relative;
     z-index: 1;
-    left:28px;
+    left:91px;
     top: 70px;
 }
 
@@ -215,6 +217,30 @@
     bottom: 228px;
     left: 66px;
 }
+#preço{
+    display: block;
+    margin: auto;
+    color: white;
+    width: 380px;
+    
+    font-size: 2em;
+    position: relative;
+    z-index: 1;
+    bottom: 243px;
+    left: 137px;}
+    #preço1{
+        display: block;
+       
+        margin: auto;
+        color: white;
+        width: 380px;
+        font-size: 2em;
+        position: relative;
+        z-index: 1;
+        bottom: 272px;
+        left: 177px;
+    }
+    
 #botao2{
     width: 168px;
     display: block;
@@ -227,7 +253,8 @@
     text-decoration: none;
     border-radius: 13px;
     position: relative;
-    top: -209px;
+    top: -177px;
+   
 }
    .slide3 h1{
      position: relative;
@@ -271,7 +298,7 @@
         text-decoration: none;
         border-radius: 13px;
         position: relative;
-        top: -227px;
+        top: -207px;
     }
     
 }
@@ -402,10 +429,11 @@
     width: 60vw;
     height: 11rem;
     background-color: #222222;
+  
     margin: auto;
    
     display: flex;
-    padding: 1rem;
+    padding: 1.8rem;
     overflow-x: scroll;
     margin-top: 19px;
     overflow-y: hidden;
@@ -446,7 +474,9 @@ footer p {
     position: relative;
     top: 31px;
     width: 517px;
-    left: 494px;
+    
+    margin: auto;
+    display: block;
    
    
     
@@ -474,4 +504,10 @@ footer p {
     top: 5px;
 }
 
-
+::-webkit-scrollbar{
+    width: 4px;
+ 
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgb(48, 48, 136) ;
+}
