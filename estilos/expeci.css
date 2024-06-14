@@ -1,0 +1,153 @@
+*{
+    margin: 10px;
+    
+}
+
+body{
+    background-color:  rgb(0, 0, 0);
+}
+img{
+    height: 500px;
+}
+h2{
+    background-color: #0f0f0f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 70px;
+    color: aliceblue;
+    
+}#chato{
+    margin: auto;
+    text-align: center;
+}
+#volumes{
+    text-align: center;
+    
+    font-size: 20px;
+    background-color: #0f0f0f;
+    color: bisque;
+    width: 310px;
+}
+#resposta{
+    background-color:  rgba(98, 98, 175, 0);
+    border: 2px solid rgba(255, 255, 255, 0.459);
+    width: 700px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+#bla{
+    text-align: center;
+    
+}
+.pagamento{
+    color: #e7e7e7;
+    margin: auto;
+    font-size: 30px;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    
+
+}
+.carrinho{
+    height: 40px;
+    background-color: rgb(98, 98, 175);
+    margin: 5px;
+    width: 48px;
+    border-radius: 10px;
+    padding: 5px; 
+    transition: 0.3s;
+    
+}
+.carrinho:hover{
+    transform: scale(1.1);
+}
+
+.fala{
+    background-color: rgba(54, 54, 54, 0.13);
+    color: #d4d1d1;
+    padding: 8px;
+    border-radius: 6px;
+}
+.pessoa{
+    display: flex;
+    
+}
+.perfil{
+    height: 40px;
+}
+.come{
+    background-color: rgb(98, 98, 175);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+
+    
+
+.comentarios{
+    background-color:#222222;
+    border: 3px solid  rgb(0, 0, 0);
+    font-size: 20px;
+    color:#d4d1d1;
+    
+    
+}
+.botao{
+    background-color:rgb(98, 98, 175);
+    font-size: 30px;
+    margin: auto;
+    
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+    transition: 0.3s;
+    
+}
+.botao:hover{
+    transform: scale(1.1);
+}
+.sinopse1{
+    font-size: 30px;
+    color: rgb(185, 177, 177);
+
+}
+.nome{
+    
+    border: 3px solid  rgb(98, 98, 175);
+}
+.estrelas{
+    background-color:#0f0f0f;
+    font-size: 20px;
+    padding: 18px;
+    
+
+    color:  #e7e7e7;
+
+}
+.status{
+    
+    background-color: #222222;
+    font-size: 20px;
+    padding: 18px;
+    
+    color: #dad9d9;
+}
+.main1{
+    display: flex;
+    
+}
+
+@media screen and  (max-width:700px ) {
+    .main1{
+        display: block;
+        
+    }
+}

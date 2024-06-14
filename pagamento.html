@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/pagamento.css">
+    <script src="pagamento.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <main>
+        <div id="estagio">
+            <img class="escolha" onclick="escolherPIX()"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg/2560px-Logo%E2%80%94pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.svg.png" alt="">
+            <img class="escolha" onclick="escolherVISA()" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Visa_2021.svg/1280px-Visa_2021.svg.png" alt=""> 
+        
+        </div>
+        <p id="frase"> escolha a sua forma de pagamento, caso coloque o cartao, preencha com suas informações pessoais, caso seja pix, siga as intruções disponiveis</p>
+
+        <div id="cartao">
+                <div><img class="card" src="https://passageirodeprimeira.b-cdn.net/wp-content/uploads/2022/09/passageirodeprimeira.com-bradesco-visa-signature-cartao-visa-signature-classic.png" alt=""></div>
+                <input class="numerocard" placeholder="numero do cartao" type="number">
+                <br>
+                <input class="nomecard" placeholder="nome do cartao" type="text">
+                <br>
+                <input class="validadecard" placeholder="mm/yy" type="number"> 
+    
+                <input class="cvvcard" placeholder="CVV" type="number">
+                <br>
+                <select name="parcelamento"  id="">
+                    <option value="">10 parcelas</option>
+                    <option value="">4 parcelas</option>
+                    <option value="">3 parcelas</option>
+
+                </select>
+
+                <div class="encaminhar">encaminhar</div>
+                <img id="explic" src="https://img.freepik.com/vetores-premium/formulario-de-cartoes-de-credito-para-o-modelo-de-pagina-de-pagamento_117553-50.jpg" alt="">
+                <p>sun.comics promete autenticação de transações e total segurança criptografada</p>
+        </div>
+
+        <div id="pix">
+            <img id="qr" src="https://miro.medium.com/v2/resize:fit:722/1*621h5GxCDSfuJ418FLdOsg.png" alt="">
+            <div id="dentro">
+            <p class="pp">Chave PIX</p>
+            <p class="bb">(11) 1234-5678</p>
+            <p class="pp">Nome</p>
+            <p class="bb">Sun.Comics</p>
+            <p id="baba">para pagar, acesse seu banco, clique em pagar com pix, aponte seu celular a tela o QR-CODE</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
