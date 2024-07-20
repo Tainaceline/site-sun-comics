@@ -1,4 +1,4 @@
-@media screen and (min-width: 1202px){
+
     * {
         margin: 0;
         padding: 0;
@@ -105,7 +105,9 @@
     
         
     }.slide2{
-        background: url('https://frierenmanga.com/wp-content/uploads/2023/12/frieren-manga-768x1024.jpg') center top / cover no-repeat;
+        background: url('https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2024/02/Frieren-e-a-Jornada-para-o-Alem.webp?resize=774%2C489') left, top ;
+        background-repeat: no-repeat;
+        background-size: cover;
         width: 25%;
         float: left;
         height: 500px; 
@@ -576,4 +578,9 @@ footer p {
 }
 ::-webkit-scrollbar-thumb{
     background-color:rgb(48, 48, 136) ;
+}
+
+
+@media screen and (max-width: 1273px){
+
 }
