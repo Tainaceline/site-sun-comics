@@ -586,9 +586,9 @@ footer p {
     footer p {
         text-align: center;
         position: relative;
-        top: 20px;
-        width: 340px;
-        
+        top: 6px;
+        width: 333px;
+    
       
        
         
@@ -746,7 +746,7 @@ img {
     color: white;
 }
 #caixa {
-    width: 53vw;
+    width: 59vw;
     height: 11rem;
     background-color: #222222;
     margin: auto;
@@ -768,10 +768,6 @@ img {
     width: 84%;
     height: 315px;
     margin-top: 40px;
-}
-::-webkit-scrollbar{
-    width: 10px;
- 
 }
 
 
