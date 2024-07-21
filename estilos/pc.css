@@ -703,6 +703,10 @@ img {
     height: 315px;
     margin-top: 40px;
 }
+::-webkit-scrollbar{
+    width: 10px;
+ 
+}
 
 
 
