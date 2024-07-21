@@ -71,7 +71,7 @@
         position: relative;
         left: 0;
         width: 400%;
-        animation: 17s slide infinite;
+        nimation: 17s slide infinite;
         
        
        
@@ -332,7 +332,7 @@
         bottom: 215px;
         left: 66px;
     }
-}
+
 #botao1 {
         width: 168px;
         display: block;
@@ -583,4 +583,91 @@ footer p {
 
 @media screen and (max-width: 1273px){
 
+    footer p {
+        text-align: center;
+        position: relative;
+        top: 20px;
+        width: 360px;
+      
+       
+        
+    
+      
+    
+        
+       
+    } .l {
+        display: block;
+    }
+    .pc{
+        display: none;
+    }
+    #menu {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 70px;
+        z-index: 9999;
+        width: 134px;
+        background-color: rgb(29, 28, 28);
+    }
+    .slider {
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+figure{
+    position: relative;
+    left: 0;
+    width: 400%;
+    nimation: 17s slide infinite;
 }
+img {
+    width: 169px;
+    left: 6px;
+    top: 60px
+
+    
+}
+
+
+#titulof {
+  
+    font-size: 2.6em;
+    left: 73px;
+    bottom: 231px;
+    
+}
+#text3 {
+   
+    width: 176px;
+    font-size: 1.2em;
+    bottom: 221px;
+    left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
