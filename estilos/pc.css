@@ -612,7 +612,7 @@ footer p {
         background-color: rgb(29, 28, 28);
     }
     .slider {
-        width: 80%;
+        width: 84%;
         height: 100%;
         overflow: hidden;
         margin: auto;
@@ -626,8 +626,8 @@ figure{
     nimation: 17s slide infinite;
 }
 img {
-    width: 169px;
-    left: 6px;
+    width: 114px;
+    left: 0px;
     top: 60px
 
     
@@ -637,18 +637,33 @@ img {
 #titulof {
   
     font-size: 2.6em;
-    left: 73px;
-    bottom: 231px;
+    left: 66px;
+        bottom: 130px;
     
 }
 #text3 {
-   
-    width: 176px;
-    font-size: 1.2em;
-    bottom: 221px;
-    left: 90px;
+    width: 184px;
+        font-size: 1em;
+        bottom: 117px;
+        left: 71px;
+    }
 }
 
+#botao3 {
+
+    top: -15px;
+}
+#preço2 {
+    display: block;
+    margin: auto;
+    color: white;
+    width: 380px;
+    font-size: 2em;
+    position: relative;
+    z-index: 1;
+    bottom: 83px;
+    left: 131px;
+}
 
 
 
