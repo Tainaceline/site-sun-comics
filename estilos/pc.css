@@ -587,7 +587,8 @@ footer p {
         text-align: center;
         position: relative;
         top: 20px;
-        width: 360px;
+        width: 340px;
+        
       
        
         
@@ -647,7 +648,7 @@ img {
         bottom: 117px;
         left: 71px;
     }
-}
+
 
 #botao3 {
 
@@ -663,6 +664,11 @@ img {
     z-index: 1;
     bottom: 83px;
     left: 131px;
+}
+#logo {
+  
+    font-size: 1.1em;
+    
 }
 
 
