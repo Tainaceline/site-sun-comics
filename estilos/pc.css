@@ -671,6 +671,38 @@ img {
     
 }
 
+#cor p {
+    background-color: #222222;
+    text-align: center;
+    width: 44%;
+    height: 31px;
+    line-height: 34px;
+    color: white;
+}
+#caixa {
+    width: 53vw;
+    height: 11rem;
+    background-color: #222222;
+    margin: auto;
+    display: flex;
+    padding: 1.8rem;
+    overflow-x: scroll;
+    margin-top: 19px;
+    overflow-y: hidden;
+}
+#popular {
+    background-color: #222222;
+    width: 84%;
+    height: 315px;
+    margin-top: 40px;
+}
+
+#lancamento {
+    background-color: #222222;
+    width: 84%;
+    height: 315px;
+    margin-top: 40px;
+}
 
 
 
